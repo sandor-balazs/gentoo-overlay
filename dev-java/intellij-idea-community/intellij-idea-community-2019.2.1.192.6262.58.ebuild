@@ -1,11 +1,12 @@
 # Copyright (c) 2019 Sándor Balázs
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
-inherit eutils versionator
+EAPI=7
 
-VERSION_NUMBER="$(get_version_component_range 1-3)"
-BUILD_NUMBER="$(get_version_component_range 4-6)"
+inherit desktop eutils
+
+VERSION_NUMBER="$(ver_cut 1-3)"
+BUILD_NUMBER="$(ver_cut 4-6)"
 
 DESCRIPTION="Professional Java IDE"
 HOMEPAGE="https://www.jetbrains.com/idea"
