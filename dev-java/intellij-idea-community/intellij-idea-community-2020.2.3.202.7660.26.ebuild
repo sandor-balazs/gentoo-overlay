@@ -1,4 +1,4 @@
-# Copyright (c) 2020 Sándor Balázs
+# Copyright (c) 2020 Sandor Balazs
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
