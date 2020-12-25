@@ -3,10 +3,10 @@
 
 EAPI=7
 
-inherit desktop eutils
+inherit desktop
 
-VERSION_NUMBER="$(ver_cut 1-3)"
-BUILD_NUMBER="$(ver_cut 4-6)"
+VERSION_NUMBER="$(ver_cut 1-2)"
+BUILD_NUMBER="$(ver_cut 3-5)"
 
 DESCRIPTION="Professional Java IDE"
 HOMEPAGE="https://www.jetbrains.com/idea"
